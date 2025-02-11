@@ -1,5 +1,5 @@
 <div class="space-y-6">
-    @dump($filters)
+    @dump($invoices)
     <!-- Filters Section -->
     <div class="bg-white rounded-lg p-6 shadow-md">
         <div class="flex items-center justify-between">
@@ -73,9 +73,9 @@
     </div>
 
     <!-- Pagination Section -->
-    <div class="mt-4">
+    {{--  <div class="mt-4">
         @if ($invoices->hasPages())
             {{ $invoices->links() }}
         @endif
-    </div>
+    </div> --}}
 </div>
